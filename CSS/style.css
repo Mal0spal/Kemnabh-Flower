@@ -1,0 +1,209 @@
+.body
+{
+background-color: #E5E5E5;
+}
+
+.Fat {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 56px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.link1
+{
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.link11
+{
+    background-color: #156963;
+}
+
+.Zag
+{
+    color: #156963;
+    font-size: 68px;
+    font-weight: 500;
+    text-align: right;
+    line-height: 83px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Zag1
+{
+    text-align: right;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    
+}
+
+.textbutt1
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #F2F2F2;
+}
+
+.textbutt2
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    color: #156963;
+    
+}
+.textbutt3
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #F2F2F2;
+}
+
+.textbutt4
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+}
+
+.greenbt
+{
+    background-color: #156963;
+}
+
+.brd
+{
+    width: 268px;
+    height: 155px;
+    border: 1px solid #E0E0E0;
+}
+
+.box
+{
+    font-weight: bold;
+    font-size: 16px;
+    color: #156963;
+    line-height: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.box1
+{
+    font-size: 10px;
+    color: #2C1500;
+    font-weight: normal;
+    line-height: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.FP
+{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: black; 
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Plants
+{
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.IDR
+{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Text1
+{
+    font-size: 16px;
+    line-height: 28px;  
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Clr
+{
+    background-color: #F3F4F6;
+}
+
+.link2
+{
+    font-family: 'Nunito', sans-serif;
+    background-color: #156963;
+}
+
+.Plantku
+{
+    color: #156963;
+    font-weight: 1000;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Plantku-House
+{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.Plantku-House1
+{
+    font-weight: normal;
+    font-size: 13px;
+    color: #4F4F4F;
+    line-height: 20px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.Footer1
+{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: black;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.Footer2
+{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: black;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.link
+{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 14px;
+    background-color: #156963;
+}
