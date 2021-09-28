@@ -1,6 +1,13 @@
+
+
+:root{
+    --main-color: red;
+}
+
 .body
 {
 background-color: #E5E5E5;
+
 }
 
 .Fat {
@@ -25,6 +32,7 @@ a{
 .link11
 {
     background-color: #156963;
+    color: white;
 }
 
 .Zag
@@ -85,6 +93,11 @@ a{
 .greenbt
 {
     background-color: #156963;
+}
+
+.greenbt1
+{
+    background-color: #E5E5E5;
 }
 
 .brd
@@ -153,6 +166,7 @@ a{
 {
     font-family: 'Nunito', sans-serif;
     background-color: #156963;
+    color: #FAFEFE;
 }
 
 .Plantku
@@ -206,4 +220,5 @@ a{
     font-size: 8px;
     line-height: 14px;
     background-color: #156963;
+    color: #FFFFFF;
 }
