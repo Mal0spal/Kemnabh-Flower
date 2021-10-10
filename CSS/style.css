@@ -1,57 +1,103 @@
-
-
 :root{
     --main-color: red;
+
+
 }
 
 .body
 {
-background-color: #E5E5E5;
+    background-color: black;
 
 }
 
-.Fat {
-    font-weight: bold;
-    font-size: 40px;
-    line-height: 56px;
-    font-family: 'Montserrat', sans-serif;
+
+
+.logo
+{
+    display:inline-block;
+    margin-top: 40px;
+    margin-left: 56px;
+    position: absolute;
 }
+
+.Pictures1
+{
+   
+    position: absolute;
+}
+
+.loupe
+{
+    margin-top: 40px;
+    margin-left: 822px;
+    display:inline-block;
+}
+
+.troll
+{
+    margin-top: 40px;
+    margin-left: 40px;
+    display:inline-block;
+}
+ 
+.headbut
+{
+    margin-top: 40px;
+    display:inline-block;
+}
+
+.headbut1
+{
+    margin-top: 40px;
+    display:inline-block;
+}
+
+.signin
+{
+   background-color: #156963;
+    color: white;
+    width: 111px;
+    height: 36px;
+}
+
+.signup
+{
+     width: 111px;
+    height: 36px;
+}
+
 
 a{
     text-decoration: none;
     color: black;
 }
 
-.link1
-{
-    font-family: 'Nunito', sans-serif;
-    font-size: 14px;
-    line-height: 20px;
-}
 
-.link11
-{
-    background-color: #156963;
-    color: white;
-}
 
 .Zag
 {
     color: #156963;
     font-size: 68px;
     font-weight: 500;
-    text-align: right;
+    text-align: left;
     line-height: 83px;
     font-family: 'Montserrat', sans-serif;
+    width: 523px;
+    height: 166px;
+    margin-top: 110px;
+    margin-left: 685px;
 }
 
 .Zag1
 {
-    text-align: right;
+    text-align: left;
     font-weight: normal;
     font-size: 18px;
     line-height: 32px;
-    
+    width: 493px;
+    height: 96px;
+    margin-top: 24px;
+    margin-left: 685px;
 }
 
 .textbutt1
@@ -61,6 +107,7 @@ a{
     font-size: 24px;
     line-height: 29px;
     color: #F2F2F2;
+    
 }
 
 .textbutt2
@@ -93,18 +140,57 @@ a{
 .greenbt
 {
     background-color: #156963;
+    margin-top: 110px;
+    width: 320px;
+    height: 160px;
+    
 }
 
 .greenbt1
 {
     background-color: #E5E5E5;
+    margin-top: 110px;
+    margin-left: 694px;
+    width: 320px;
+    height: 160px;
 }
 
-.brd
+.Fast_Delivery
 {
     width: 268px;
     height: 155px;
     border: 1px solid #E0E0E0;
+    display: inline-block;
+    margin-left: 56px;
+    margin-top: 142px;
+
+}
+
+.Great_Customers
+{
+    width: 268px;
+    height: 155px;
+    border: 1px solid #E0E0E0;
+    display: inline-block;
+    margin-left: 32px;
+}
+
+.Original_Plants
+{
+    width: 268px;
+    height: 155px;
+    border: 1px solid #E0E0E0;
+    display: inline-block;
+    margin-left: 32px;
+}
+
+.Affordable_price
+{
+    width: 268px;
+    height: 155px;
+    border: 1px solid #E0E0E0;
+    display: inline-block;
+    margin-left: 32px;
 }
 
 .box
@@ -125,6 +211,7 @@ a{
     font-family: 'Montserrat', sans-serif;
 }
 
+
 .FP
 {
     font-weight: 500;
@@ -132,6 +219,19 @@ a{
     line-height: 24px;
     color: black; 
     font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    margin-top: 80px;
+    margin-left: 56px;
+}
+
+.Cheaper
+{
+    text-align:  center;
+    width: 130px;
+    height: 31px;
+    margin-left: 876px;
+    display: inline-block;
+    border: 1px solid #E0E0E0;
 }
 
 .Plants
@@ -150,16 +250,127 @@ a{
     font-family: 'Montserrat', sans-serif;
 }
 
+
+.Kaktus_plants
+{
+    display: inline-block;
+    margin-left: 56px;
+    margin-top: 40px;
+}
+
+.Landak_plants
+{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.Kecubung_plants
+{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.Kecubung_plants1
+{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.Kecubung_plants2
+{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+
+.Texts
+{  
+    margin-top: 80px;
+    display: inline-block;
+    position: absolute;
+}
+
+.BMP {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 56px;
+    font-family: 'Montserrat', sans-serif;
+    width: 522px;
+    height: 112px;
+    margin-left: 79px;
+}
+
 .Text1
 {
+    margin-top: 16px;
+    width: 507px;
+    height: 140px;
     font-size: 16px;
     line-height: 28px;  
     font-family: 'Montserrat', sans-serif;
+    margin-left: 79px;
+}
+
+
+.imagesbmp
+{
+    margin-top: 432px;
+    position: absolute;
+    margin-left: 58px;
+}
+.imagesbmp1
+{
+    
+    margin-top: 80px;
+    display: inline-block;
+    margin-left: 710px;
+}
+
+
+.boxes
+{
+    position: absolute;
+}
+
+
+.GYFDIV
+{
+    position: static;
+    margin-left: 153px;
+    margin-top: 168px;
+    width: 585px;
+    height: 112px;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 56px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.imgplants
+{
+    position: absolute;
+    display: inline-block;
+    margin-left: 744px;
+    margin-top: 80px;
 }
 
 .Clr
 {
+    position: absolute;
     background-color: #F3F4F6;
+    width: 1168px;
+    height: 360px;
+    display: inline-block;
+    margin-left: 56px;
+    margin-top: 80px;
+}
+
+.link22
+{
+    position: static;
+    margin-top: 32px;
+    margin-left: 153px;
 }
 
 .link2
@@ -167,7 +378,49 @@ a{
     font-family: 'Nunito', sans-serif;
     background-color: #156963;
     color: #FAFEFE;
+    width: 152px;
+    height: 40px;
 }
+
+
+.Plantku1
+{
+    display: inline-block;
+    margin-top: 520px;
+    margin-left: 167px;
+    width: 282px;
+    height: 137px;
+}
+
+.Perusahaan
+{
+    display: inline-block;
+    margin-left: 80px;
+    width: 95px;
+    height: 82px;
+}
+
+.Produk
+{
+    display: inline-block;
+    margin-left: 80px;
+    width: 95px;
+    height: 82px;
+   
+}
+
+.Berlan
+{
+    margin-left: 80px;
+    display: inline-block;
+    width: 234px;
+    height: 98px;
+   
+}
+
+
+
+
 
 .Plantku
 {
@@ -222,3 +475,5 @@ a{
     background-color: #156963;
     color: #FFFFFF;
 }
+
+
