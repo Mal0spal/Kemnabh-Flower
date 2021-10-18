@@ -4,6 +4,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Work+Sans:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
 
+:root
+{ 
+    --text-color: #156963;
+}
+
 
 a{
     text-decoration: none;
@@ -99,7 +104,7 @@ body
 
 .signin
 {
-    background-color: #156963;
+    background-color: var(--text-color);
     color: white;
     width: 111px;
     height: 36px;
@@ -143,7 +148,7 @@ body
 
 .Zag
 {
-    color: #156963;
+    color: var(--text-color);
     font-size: 68px;
     font-weight: 500;
     text-align: left;
@@ -230,7 +235,7 @@ body
     font-weight: 500;
     font-size: 32px;
     line-height: 39px;
-    color: #156963;
+    color: var(--text-color);
     font-family: 'Montserrat', sans-serif;
     
     align-items: center;
@@ -240,7 +245,7 @@ body
 
 .greenbt
 {
-    background-color: #156963;
+    background-color: var(--text-color);
     
     width: 320px;
     height: 160px;
@@ -410,7 +415,7 @@ body
 {
     font-weight: bold;
     font-size: 16px;
-    color: #156963;
+    color: var(--text-color);
     line-height: 24px;
     font-family: 'Montserrat', sans-serif;
     width: 137px;
@@ -750,7 +755,7 @@ body
 
 .link2
 {
-    background-color: #156963;
+    background-color: var(--text-color);
     color: #FAFEFE;
     width: 152px;
     height: 40px;
@@ -770,7 +775,7 @@ body
     width: 1280px;
     height: 268px;
     margin-top: 80px;
-    border-top: 1px solid #156963;
+    border-top: 1px solid var(--text-color);
 }
 
 .Plantku1
@@ -789,7 +794,7 @@ body
     font-weight: 500;
     font-size: 24px;
     line-height: 24px;
-    color: #156963;
+    color: var(--text-color);
     font-family: 'Poppins', sans-serif;
     
 
