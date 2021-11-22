@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Форма</title>
+    <link rel="stylesheet" type="text/css" href="CSS/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="CSS/style.css" />
+</head>
+
+<body>
+
+    <header>
+
+        <div class="headers">
+
+
+            <div>
+                <img src="images/P.png" alt="icon">
+            </div>
+
+
+
+
+            <div class="rightside">
+
+                <div class="landt">
+                    <div class="loupe">
+                        <a href=""><img src="images/search_1.svg" width="20" alt="search"></a>
+                    </div>
+
+                    <div class="troll">
+                        <a href=""><img src="images/shopping-cart 1.svg" width="20" alt="shop"></a>
+                    </div>
+
+
+                </div>
+
+                <div class="signs">
+
+                    <div class="headbut">
+                        <button class="signup">Sign Up</button>
+                    </div>
+
+                    <div class="headbut1">
+                        <button class="signin">Sign In</button>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <main>
+
+        <section>
+            <form name="contact" method="post" data-netlify="true">
+
+                <fieldset class="cfieldset">
+                    <legend>Личная информация</legend>
+                    <lable>Имя:<input type="text" name="text-field" placeholder="UserName" required></lable>
+                    <label>Дата рождения:<input type="date" name="date"></label>
+
+                    <span>Пол:</span>
+                    <select name="quantity">
+                        <option value="-" selected> </option>
+                        <option value="М">М</option>
+                        <option value="Ж">Ж</option>
+                    </select>
+                </fieldset>
+
+                <fieldset class="ccfieldset">
+                    <legend>Контактные данные</legend>
+
+                    <p><label>Email<input type="email" name="email" placeholder="example@mail.ru"></label>
+                        <lable for="password">Придумайте пароль:<input type="password" name="password" id="password"
+                                required></lable>
+                    </p>
+
+                    <p>
+                        <label>Ваш контактный телефон:<input type="tel" name="tel" required></label>
+                    </p>
+                    <p>
+
+                        <label>В какое время с вами будет удобно связаться:<input type="checkbox" name="checked"
+                                value="Утро">Утро</label>
+                        <label><input type="checkbox" name="checked" value="День">День</label>
+                        <label><input type="checkbox" name="checked" value="Вечер">Вечер</label>
+                        <label><input type="checkbox" name="checked" value="Ночь">Ночь</label>
+                    </p>
+                    <input type="submit" value="Отправить">
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+
+</body>
+
+</html>
