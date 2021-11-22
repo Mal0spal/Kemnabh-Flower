@@ -9,11 +9,47 @@
     --text-color: #156963;
 }
 
+::selection 
+{
+    background:#35C0CD;
+}
 
-a{
+input[type="checkbox"]:checked ~ .morning 
+{
+    color: yellow;
+    text-shadow: 0 0 3px black;
+}
+
+input[type="checkbox"]:checked ~ .day 
+{
+    color: #ca6c00;
+    text-shadow: 0 0 3px black;
+}
+
+input[type="checkbox"]:checked ~ .evening 
+{
+    color: #4e518b;
+    text-shadow: 0 0 3px black;
+}
+
+input[type="checkbox"]:checked ~ .night
+{
+    color: #011635;
+    text-shadow: 0 0 3px black;
+}
+
+::placeholder
+{
+    color: #156963;
+    font-style: italic;
+}
+
+a
+{
     text-decoration: none;
     color: black;
 }
+
 
 body
 {
@@ -27,13 +63,16 @@ body
     margin-top: 40px;  
     display: flex;
     justify-content: space-between;
-        position: absolute;
     align-items: center;
+    position: absolute;
+
+
 }
 .logo   
 {
 
     display: flex;
+  
 }
 
 a.button
@@ -43,7 +82,6 @@ a.button
     font-size: 14px;
     line-height: 20px;
     margin-left: 10px;
-
     font-family: 'Nunito', sans-serif;
     width: 45px;
     padding: 7px;
@@ -110,6 +148,16 @@ a.button
     
 }
 
+.signup:active
+{
+    border-radius: 5px;
+    background-color: rgb(186, 179, 179);
+}
+
+.signup:focus
+{
+    background-color: #35C0CD;
+}
 
 .headbut1
 {
@@ -133,6 +181,16 @@ a.button
  
 }
 
+.signin:active
+{
+    border-radius: 5px;
+    background-color: rgb(186, 179, 179);
+}
+
+.signin:focus
+{
+    background-color: #35C0CD;
+}
 
 .mainh
 {
@@ -203,6 +261,19 @@ a.button
     align-items: center;
     justify-content: center;
 }
+
+.greenbt1:active
+{
+    border-radius: 5px;
+    background-color: rgb(186, 179, 179);
+}
+
+.greenbt:active
+{
+    border-radius: 5px;
+    background-color: rgb(186, 179, 179);
+}
+
 
 .previos
 {
@@ -579,6 +650,12 @@ a.button
     font-family: 'Nunito', sans-serif;
 }
 
+.link2:active
+{
+    border-radius: 5px;
+    background-color: rgb(186, 179, 179);
+}
+
 .imgplants
 {
     margin-left: 8px;
@@ -682,6 +759,11 @@ a.button
     color: #000000;
 }
 
+.Tentang_Kami:hover
+{
+    border-bottom: 1px solid var(--text-color);
+}
+
 .Hubungi_Kami
 {
     width: 96px;
@@ -691,6 +773,11 @@ a.button
     line-height: 16px;
     font-family: 'Work Sans', sans-serif;
     margin-top: 14px;
+}
+
+.Hubungi_Kami:hover
+{
+    border-bottom: 1px solid var(--text-color);
 }
 
 .Produk1
@@ -728,6 +815,12 @@ a.button
     margin-top: 20px;
 }
 
+.Tanaman:hover
+{
+    border-bottom: 1px solid var(--text-color);
+}
+
+
 .Tanaman_Lain
 {
     width: 96px;
@@ -738,6 +831,11 @@ a.button
     font-family: 'Work Sans', sans-serif;
     margin-top: 14px;
 
+}
+
+.Tanaman_Lain:hover
+{
+    border-bottom: 1px solid var(--text-color);
 }
 
 .Berlangganan1
@@ -781,19 +879,151 @@ a.button
     margin-top: 14px;
 }
 
+.link:active
+{
+    border-radius: 5px;
+    background-color: rgb(186, 179, 179);
+}
+.headersForm
+{
+    width: 1168px;
+    margin-left: 56px;
+    margin-top: 40px;  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
 
 .cfieldset
 {
     width: 600px;
-    margin-top: 200px;
+    margin-top: 150px;
     margin-left: 200px;
-    position: absolute;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    
 }
 
 .ccfieldset
 {
     width: 600px;
-    margin-top: 300px;
+    margin-top: 20px;
     margin-left: 200px;
-    position: absolute;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+}
+
+.footersForm
+{
+    margin-top: 200px;
+    display: flex;
+    width: 1280px;
+
+}
+
+.legendForm
+{
+   font-size: 32px;
+   color: var(--text-color);
+
+}
+
+.SubmitForm:hover
+{
+    background-color: #65CE6C;
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.ResetForm:hover
+{
+    background-color: #C65C40;
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.Obz
+{
+    background-color: rgb(231, 156, 156);
+    border-radius: 5px;
+}
+
+.Termins
+{
+    width:600px;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+
+dt
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+    color: #156963;
+}
+
+dt::first-letter
+{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+dd
+{
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+}
+
+.Form2
+{
+    margin-top: 100px;
+    display: flex;
+}
+
+.textForm
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    
+    color: #156963;
+}
+
+.checkboxpel
+{
+    
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 26px;
+    margin-left: 200px;
+    font-family: 'Nunito', sans-serif;
+    
+}
+
+.checkboxpcls
+{
+
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 26px;
+    margin-left: 200px;
+    font-family: 'Nunito', sans-serif;
+   
+}
+
+.Chet
+{
+    color: blue;
+    font-style: italic;
+}
+
+.Nechet
+{
+    color: red;
+    font-weight: bold;
 }

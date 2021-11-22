@@ -12,7 +12,7 @@
 
     <header>
 
-        <div class="headers">
+        <div class="headersForm">
 
 
             <div>
@@ -30,7 +30,7 @@
                     </div>
 
                     <div class="troll">
-                        <a href=""><img src="images/shopping-cart 1.svg" width="20" alt="shop"></a>
+                        <a href=""><img src="images/shopping-cart.svg" width="20" alt="shop"></a>
                     </div>
 
 
@@ -56,47 +56,158 @@
 
     <main>
 
-        <section>
             <form name="contact" method="post" data-netlify="true">
 
                 <fieldset class="cfieldset">
-                    <legend>Личная информация</legend>
-                    <lable>Имя:<input type="text" name="text-field" placeholder="UserName" required></lable>
-                    <label>Дата рождения:<input type="date" name="date"></label>
+                    <legend class="legendForm">Личная информация</legend>
+                    <lable><span>Имя: </span> <input type="text" name="text-field" placeholder="UserName" class="Obz" required>
+                    </lable>
+                    <label><span>Дата рождения: </span><input type="date" name="date"></label>
 
                     <span>Пол:</span>
                     <select name="quantity">
-                        <option value="-" selected> </option>
+                        <option value="-" selected>-</option>
                         <option value="М">М</option>
                         <option value="Ж">Ж</option>
                     </select>
                 </fieldset>
 
                 <fieldset class="ccfieldset">
-                    <legend>Контактные данные</legend>
+                    <legend class="legendForm">Контактные данные</legend>
 
-                    <p><label>Email<input type="email" name="email" placeholder="example@mail.ru"></label>
-                        <lable for="password">Придумайте пароль:<input type="password" name="password" id="password"
-                                required></lable>
+                    <label>Email: <input type="email" name="email" placeholder="example@mail.ru"></label>
+                        <lable for="password">Придумайте пароль: <input type="password" name="password" id="password"
+                                class="Obz" required></lable>
+                    
+
+                    <p>
+                        <label><span>Ваш контактный телефон: </span><input type="tel" name="tel" class="Obz" required></label>
                     </p>
 
                     <p>
-                        <label>Ваш контактный телефон:<input type="tel" name="tel" required></label>
-                    </p>
-                    <p>
 
-                        <label>В какое время с вами будет удобно связаться:<input type="checkbox" name="checked"
-                                value="Утро">Утро</label>
-                        <label><input type="checkbox" name="checked" value="День">День</label>
-                        <label><input type="checkbox" name="checked" value="Вечер">Вечер</label>
-                        <label><input type="checkbox" name="checked" value="Ночь">Ночь</label>
+                        <label><span>В какое время с вами будет удобно связаться: </span><input type="checkbox" name="checked"
+                                value="Утро"><span class="morning">Утро</span></label>
+                        <label><input type="checkbox" name="checked" value="День"><span class="day">День</span> </label>
+                        <label><input type="checkbox" name="checked" value="Вечер"><span
+                                class="evening">Вечер</span></label>
+                        <label><input type="checkbox" name="checked" value="Ночь"><span
+                                class="night">Ночь</span></label>
                     </p>
-                    <input type="submit" value="Отправить">
+
+                    <button type="submit" class="SubmitForm">Отправить<svg viewBox="0 0 24 24" width="16" height="16"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <line x1="22" x2="11" y1="2" y2="13" />
+                            <polygon points="22 2 15 22 11 13 2 9 22 2" />
+                        </svg></button>
+                    <button type="reset" class="ResetForm" disabled>Сбросить<svg viewBox="0 0 16 16" width="16"
+                            height="16" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M10.17,10l3.89-3.89a.37.37,0,1,0-.53-.53L9.64,9.43,5.75,5.54a.37.37,0,1,0-.53.53L9.11,10,5.22,13.85a.37.37,0,0,0,0,.53.34.34,0,0,0,.26.11.36.36,0,0,0,.27-.11l3.89-3.89,3.89,3.89a.34.34,0,0,0,.26.11.35.35,0,0,0,.27-.11.37.37,0,0,0,0-.53Z" />
+                        </svg></button>
                 </fieldset>
+
             </form>
-        </section>
+      
+
+            <div class="Termins">
+                <dl>
+                    <dt>Псевдокласс</dt>
+                    <dd>Особый вид селектора, который уточняет тип или состояние. Обычно это какой-то качественный
+                        признак: реакция на наведение курсора, порядок следования и другие.&#128712;
+                    </dd>
+                    <dt>Псевдоэлемент</dt>
+                    <dd>Элементы, которых не существует в HTML-разметке, но действуют так, как если бы вы добавили в
+                        разметку целый новый HTML-элемент.
+                        Они создаются и позиционируются исключительно при помощи CSS.
+                        Чаще всего используются для создания различных декоративных элементов (которые не несут
+                        содержательного смысла).&#128712;
+                    </dd>
+                </dl>
+
+            </div>
+
+            <div class="Form2">
+                <div class="checkboxpel">
+                    <span class="textForm">:Псевдоклассы</span>
+                    <label><input type="checkbox" name="checked" value=":hover" checked><s>:hover</s></label>
+                    <label><input type="checkbox" name="checked" value=":visited">:visited</label>
+                    <label><input type="checkbox" name="checked" value=":invalid">:invalid</label>
+                    <label><input type="checkbox" name="checked" value=":active" checked><s>:active</s></label>
+                    <label><input type="checkbox" name="checked" value=":focus" checked><s>:focus</s></label>
+                </div>
+
+                <div class="checkboxpcls">
+                    <span class="textForm">::Псевдоэлементы</span>
+                    <label><input type="checkbox" name="checked" value="::first-letter"><span
+                            class="Nechet">::first-letter</span></label>
+                    <label><input type="checkbox" name="checked" value="::first-line"><span
+                            class="Chet">::first-line</span></label>
+                    <label><input type="checkbox" name="checked" value="::selection" checked><s class="Nechet"><span
+                                class="Nechet">::selection</span></s></label>
+                    <label><input type="checkbox" name="checked" value="::placeholder" checked><s class="Chet"><span
+                                class="Chet">::placeholder</span></s></label>
+                    <label><input type="checkbox" name="checked" value="::after"><span
+                            class="Nechet">::after</span></label>
+                </div>
+            </div>
     </main>
 
+    <footer>
+
+        <div class="footersForm">
+
+            <div class="Plantku1">
+
+                <div class="Plantku">PLANTKU</div>
+
+                <div class="plantku2">
+                    <h2 class="Plantku-house">Plantku House</h2>
+                    <div class="Jl">Jl. Laksda Adisucipto No.51, Demangan, Kec. Depok, Kota Yogyakarta, Daerah
+                        Istimewa Yogyakarta 55282</div>
+                </div>
+
+            </div>
+
+            <div class="Perusahaan1">
+
+                <div class="Perusahaan">Perusahaan</div>
+
+                <div class="Perusahaan2">
+                    <div class="Tentang_Kami"><a href="">Tentang Kami</a></div>
+                    <div class="Hubungi_Kami"><a href="">Hubungi Kami</a></div>
+                </div>
+
+            </div>
+
+            <div class="Produk1">
+
+                <div class="Produk">Produk</div>
+
+                <div class="Produk2">
+                    <div class="Tanaman"><a href="">Tanaman</a></div>
+                    <div class="Tanaman_Lain"><a href="">Tanaman Lain</a></div>
+                </div>
+
+            </div>
+
+            <div class="Berlangganan1">
+
+                <div class="Berlangganan">Berlangganan Email Kami</div>
+
+                <form>
+                    <input class="Masukan" placeholder="Masukan Alamat Email">
+
+                    <button class="link">Submit</button>
+
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </footer>
 
 </body>
 
