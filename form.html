@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="CSS/style.css" />
 </head>
 
-<body>
+<body class="bodyForm">
 
     <header>
 
@@ -54,103 +54,114 @@
 
     </header>
 
-    <main>
+    <main class="mainForm">
 
-            <form name="contact" method="post" data-netlify="true">
+        <form name="contact" method="post" data-netlify="true">
 
-                <fieldset class="cfieldset">
-                    <legend class="legendForm">Личная информация</legend>
-                    <lable><span>Имя: </span> <input type="text" name="text-field" placeholder="UserName" class="Obz" required>
-                    </lable>
-                    <label><span>Дата рождения: </span><input type="date" name="date"></label>
+            <fieldset class="cfieldset">
 
-                    <span>Пол:</span>
-                    <select name="quantity">
-                        <option value="-" selected>-</option>
-                        <option value="М">М</option>
-                        <option value="Ж">Ж</option>
-                    </select>
-                </fieldset>
+                <legend class="legendForm">Личная информация</legend>
+                <label><span>Имя: </span> <input type="text" name="text-field" placeholder="UserName" class="Obz"
+                        required>
+                </label>
+                <label><span>Дата рождения: </span><input type="date" name="date"></label>
 
-                <fieldset class="ccfieldset">
-                    <legend class="legendForm">Контактные данные</legend>
+                <span>Пол:</span>
+                <select name="quantity">
+                    <option value="-" selected>-</option>
+                    <option value="М">М</option>
+                    <option value="Ж">Ж</option>
+                </select>
+                
+            </fieldset>
 
-                    <label>Email: <input type="email" name="email" placeholder="example@mail.ru"></label>
-                        <lable for="password">Придумайте пароль: <input type="password" name="password" id="password"
-                                class="Obz" required></lable>
-                    
+            <fieldset class="ccfieldset">
 
-                    <p>
-                        <label><span>Ваш контактный телефон: </span><input type="tel" name="tel" class="Obz" required></label>
-                    </p>
+                <legend class="legendForm">Контактные данные</legend>
 
-                    <p>
+                <label>Email: <input type="email" name="email" placeholder="example@mail.ru"></label>
+                <label for="password">Придумайте пароль: <input type="password" name="password" id="password"
+                        class="Obz" required></label>
 
-                        <label><span>В какое время с вами будет удобно связаться: </span><input type="checkbox" name="checked"
-                                value="Утро"><span class="morning">Утро</span></label>
-                        <label><input type="checkbox" name="checked" value="День"><span class="day">День</span> </label>
-                        <label><input type="checkbox" name="checked" value="Вечер"><span
-                                class="evening">Вечер</span></label>
-                        <label><input type="checkbox" name="checked" value="Ночь"><span
-                                class="night">Ночь</span></label>
-                    </p>
 
-                    <button type="submit" class="SubmitForm">Отправить<svg viewBox="0 0 24 24" width="16" height="16"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <line x1="22" x2="11" y1="2" y2="13" />
-                            <polygon points="22 2 15 22 11 13 2 9 22 2" />
-                        </svg></button>
-                    <button type="reset" class="ResetForm" disabled>Сбросить<svg viewBox="0 0 16 16" width="16"
-                            height="16" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M10.17,10l3.89-3.89a.37.37,0,1,0-.53-.53L9.64,9.43,5.75,5.54a.37.37,0,1,0-.53.53L9.11,10,5.22,13.85a.37.37,0,0,0,0,.53.34.34,0,0,0,.26.11.36.36,0,0,0,.27-.11l3.89-3.89,3.89,3.89a.34.34,0,0,0,.26.11.35.35,0,0,0,.27-.11.37.37,0,0,0,0-.53Z" />
-                        </svg></button>
-                </fieldset>
+                <p>
+                    <label><span>Ваш контактный телефон: </span><input type="tel" name="tel" class="Obz"
+                            required></label>
+                </p>
 
-            </form>
-      
+                <p>
+                    <span>В какое время с вами будет удобно связаться: </span>
+                    <label><input type="checkbox" name="checked" value="Утро"><span class="morning">Утро</span></label>
+                    <label><input type="checkbox" name="checked" value="День"><span class="day">День</span> </label>
+                    <label><input type="checkbox" name="checked" value="Вечер"><span
+                            class="evening">Вечер</span></label>
+                    <label><input type="checkbox" name="checked" value="Ночь"><span class="night">Ночь</span></label>
+                </p>
 
-            <div class="Termins">
-                <dl>
-                    <dt>Псевдокласс</dt>
-                    <dd>Особый вид селектора, который уточняет тип или состояние. Обычно это какой-то качественный
-                        признак: реакция на наведение курсора, порядок следования и другие.&#128712;
-                    </dd>
-                    <dt>Псевдоэлемент</dt>
-                    <dd>Элементы, которых не существует в HTML-разметке, но действуют так, как если бы вы добавили в
-                        разметку целый новый HTML-элемент.
-                        Они создаются и позиционируются исключительно при помощи CSS.
-                        Чаще всего используются для создания различных декоративных элементов (которые не несут
-                        содержательного смысла).&#128712;
-                    </dd>
-                </dl>
+                <button type="submit" class="SubmitForm">Отправить<svg class="SVGForm" viewBox="0 0 24 24" width="16"
+                        height="16" xmlns="http://www.w3.org/2000/svg">
+                        <line x1="22" x2="11" y1="2" y2="13" />
+                        <polygon points="22 2 15 22 11 13 2 9 22 2" />
+                    </svg></button>
+                <button type="reset" class="ResetForm" disabled>Сбросить<svg viewBox="0 0 16 16" width="16" height="16"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M10.17,10l3.89-3.89a.37.37,0,1,0-.53-.53L9.64,9.43,5.75,5.54a.37.37,0,1,0-.53.53L9.11,10,5.22,13.85a.37.37,0,0,0,0,.53.34.34,0,0,0,.26.11.36.36,0,0,0,.27-.11l3.89-3.89,3.89,3.89a.34.34,0,0,0,.26.11.35.35,0,0,0,.27-.11.37.37,0,0,0,0-.53Z" />
+                    </svg></button>
 
+            </fieldset>
+
+        </form>
+
+
+        <div class="Termins">
+            <dl>
+                <dt>Псевдокласс</dt>
+                <dd>Особый вид селектора, который уточняет тип или состояние. Обычно это какой-то качественный
+                    признак: реакция на наведение курсора, порядок следования и другие.
+                </dd>
+                <dt>Псевдоэлемент</dt>
+                <dd>Элементы, которых не существует в HTML-разметке, но действуют так, как если бы вы добавили в
+                    разметку целый новый HTML-элемент.
+                    Они создаются и позиционируются исключительно при помощи CSS.
+                    Чаще всего используются для создания различных декоративных элементов (которые не несут
+                    содержательного смысла).
+                </dd>
+            </dl>
+
+        </div>
+
+        <div class="Form2">
+            <span class="checkedForm"></span>
+            <div class="checkboxpel">
+                <span class="textForm">:Псевдоклассы</span>
+                <label><input type="checkbox" name="checked" value=":hover" checked><span
+                        class="checkedForm">:hover</span></label>
+                <label><input type="checkbox" name="checked" value=":visited"><span
+                        class="checkedForm">:visited</span></label>
+                <label><input type="checkbox" name="checked" value=":invalid"><span
+                        class="checkedForm">:invalid</span></label>
+                <label><input type="checkbox" name="checked" value=":active" checked><span
+                        class="checkedForm">:active</span></label>
+                <label><input type="checkbox" name="checked" value=":focus" checked><span
+                        class="checkedForm">:focus</span></label>
             </div>
 
-            <div class="Form2">
-                <div class="checkboxpel">
-                    <span class="textForm">:Псевдоклассы</span>
-                    <label><input type="checkbox" name="checked" value=":hover" checked><s>:hover</s></label>
-                    <label><input type="checkbox" name="checked" value=":visited">:visited</label>
-                    <label><input type="checkbox" name="checked" value=":invalid">:invalid</label>
-                    <label><input type="checkbox" name="checked" value=":active" checked><s>:active</s></label>
-                    <label><input type="checkbox" name="checked" value=":focus" checked><s>:focus</s></label>
-                </div>
-
-                <div class="checkboxpcls">
-                    <span class="textForm">::Псевдоэлементы</span>
-                    <label><input type="checkbox" name="checked" value="::first-letter"><span
-                            class="Nechet">::first-letter</span></label>
-                    <label><input type="checkbox" name="checked" value="::first-line"><span
-                            class="Chet">::first-line</span></label>
-                    <label><input type="checkbox" name="checked" value="::selection" checked><s class="Nechet"><span
-                                class="Nechet">::selection</span></s></label>
-                    <label><input type="checkbox" name="checked" value="::placeholder" checked><s class="Chet"><span
-                                class="Chet">::placeholder</span></s></label>
-                    <label><input type="checkbox" name="checked" value="::after"><span
-                            class="Nechet">::after</span></label>
-                </div>
+            <div class="checkboxpcls">
+                <span class="textForm">::Псевдоэлементы</span>
+                <label><input type="checkbox" name="checked" value="::first-letter" checked><span
+                        class="checkedForm"><span class="Nechet">::first-letter</span></span></label>
+                <label><input type="checkbox" name="checked" value="::first-line"><span class="checkedForm"><span
+                            class="Chet">::first-line</span></span></label>
+                <label><input type="checkbox" name="checked" value="::selection" checked><span class="checkedForm"><span
+                            class="Nechet">::selection</span></span></label>
+                <label><input type="checkbox" name="checked" value="::placeholder" checked><span
+                        class="checkedForm"><span class="Chet">::placeholder</span></span></label>
+                <label><input type="checkbox" name="checked" value="::after" checked><span class="checkedForm"><span
+                            class="Nechet">::after</span></span></label>
             </div>
+
+        </div>
     </main>
 
     <footer>

@@ -38,6 +38,11 @@ input[type="checkbox"]:checked ~ .night
     text-shadow: 0 0 3px black;
 }
 
+input[type="checkbox"]:checked ~ .checkedForm 
+{
+    text-decoration: line-through;
+}
+
 ::placeholder
 {
     color: #156963;
@@ -916,7 +921,6 @@ a.button
 
 .footersForm
 {
-    margin-top: 200px;
     display: flex;
     width: 1280px;
 
@@ -977,6 +981,11 @@ dd
     font-size: 18px;
 }
 
+dd::after
+{
+   content: "\1F6C8";
+}
+
 .Form2
 {
     margin-top: 100px;
@@ -1026,4 +1035,21 @@ dd
 {
     color: red;
     font-weight: bold;
+}
+
+.bodyForm
+{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainForm
+{
+    flex-grow: 1;
+}
+
+.SVGForm
+{
+    vertical-align: middle;
 }
